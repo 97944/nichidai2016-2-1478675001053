@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nichidai2016-2
+  host: nichidai2016-2
+  disk_quota: 1024M
+  services:
+  - nichidai2016-2-personality_insights
